@@ -1,0 +1,15 @@
+torch
+torchaudio
+torchvision
+librosa==0.8.0
+opencv-python
+tqdm
+nlpaug
+cmapy
+audiomentations
+timm==0.4.5
+wget
+cmake==3.18.4
+seaborn
+numpy
+flask

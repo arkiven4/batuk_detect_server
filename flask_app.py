@@ -83,7 +83,7 @@ app = Flask(__name__)
 
 @app.route('/pred_audio/<uuid>')
 def send_audio(uuid):
-    fpath = os.path.join("/run/media/viblab/Markov2/Pras/PKM/TB/public_dataset", f'{uuid}.wav')
+    fpath = os.path.join("/home/arkiven4/ehealth-web/public/uploads/batuk", f'{uuid}.wav')
     
     sr = librosa.get_samplerate(fpath)
     data, _ = torchaudio.load(fpath)
